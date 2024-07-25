@@ -1,0 +1,36 @@
+# macOS specific ignores
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon files
+Icon?
+._*
+
+# Thumbnails
+._.DS_Store
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# macOS cache files
+*.swp
+*.swo
+
+# Jupyter Notebook specific ignores
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# General Python ignores
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment directories
+venv/
+env/
+ENV/
+.venv/
+
